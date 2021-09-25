@@ -13,7 +13,7 @@ CMY만으로는 온전한 블랙을 만들지 못하기 때문에 K가 추가됨
  2.	Bit Depth
 * Bit: 1픽셀당 표현할 수 있는 색상의 개수  
 영상화질에 결정적인 영향  
-ex) 8Bit: 2의 8제곱  
+ex. 8Bit: 2의 8제곱  
 3Channel 8bit  
 Red Green Blue  
 256 x 256 x 256   
@@ -28,4 +28,16 @@ https://www.youtube.com/watch?v=1_mbGO_KNzg
 
 * 흰색 불투명 / 검정 투명 <br/>  
 * full-color pixel은 알파를 포함한 RGBA <br/>
-* ex) 포토샵 R채널: 흰색(255)에 가까울수록 빨강, 검은색(0)에 가까울수록 빨갛지않음
+* ex. 포토샵 R채널: 흰색(255)에 가까울수록 빨강, 검은색(0)에 가까울수록 빨갛지않음
+<br/>
+<br/>
+4. Color Space <br/>
+> 용어
+* Vector값  
+  * Vector3_(x,y,z)축을 (r,g,b)로 표현   
+ex. (255, 0, 0) 간단히 하면 (1,0,0)으로도 가능
+  * Vector4(x,y,z,w) = (r,g,b,a)  
+* Scalar값 = (x) : 방향없이 하나의 수치로만 표시
+  * Integer 정수 0,1,2,3 ...
+  * Floating point: 소수점 0.1, 2.35 …
+* String 데이터 : a, abc, 2D, compositing ... (문자)
