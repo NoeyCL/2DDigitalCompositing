@@ -64,5 +64,19 @@ https://www.benq.com/en-me/knowledge-center/knowledge/color-gamut-monitor.html
 
 ![Gamuts](https://user-images.githubusercontent.com/90597915/134778971-9882445f-d822-48af-be49-d46ebea8ebd9.jpg)
 https://cgrenderdna.blogspot.com/2019/06/updated-acescg-workflow.html
-
-
+<br/>
+<br/>
+<br/>
+# W03_Gamma   
+   
+__1. Gamma__    
+* Gamma: 화면의 밝기를 나타내는 곡선     
+디스플레이마다 표현할 수 있는 능력이 다름     
+기기에 따라 실제 이미지가 갖는 밝기를 제대로 표현하지 못함     
+     
+     jpg로 저장하면 감마가 인코딩 된 상태로 저장     
+     감마 2.2가 규격이었기 때문에 jpg나 png 등 srgb포맷은 곡선을 지님    
+ 
+* Gamma Encoding(감마부호화)의 목적     
+     * 주어진 대역폭 혹은 정보양 내에서 최대한의 '화질'을 보여주기 위해서
+     
